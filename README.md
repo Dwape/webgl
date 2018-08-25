@@ -8,5 +8,5 @@ Moving a 3D object
 `s` to go backwards<br/>
 `d` to move right<br/>
 `Space` to go up<br/>
-`q` to rotate counter-clockwise<br/> 
-`e` to rotate clockwise<br/>
+`e` to rotate counter-clockwise<br/> 
+`q` to rotate clockwise<br/>
