@@ -1,9 +1,9 @@
 /**
  * Created by Dwape on 8/25/18.
  */
-let cubeRotation = 0.0;
+let cubeRotation = 10.0;
 let xPosition = 0.0;
-let yPosition = 0.0;
+let yPosition = 10.0;
 let zPosition = -10.0;
 
 main();

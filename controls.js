@@ -21,10 +21,10 @@ onkeydown = onkeyup = function(e){
     if (map[32]) { //space
         yPosition += 0.2; //0.2
     }
-    if (map[81]) { //q
+    if (map[69]) { //q
         cubeRotation += 0.1; //0.1
     }
-    if (map[69]) { //e
+    if (map[81]) { //e
         cubeRotation -= 0.1; //0.1
     }
 }
