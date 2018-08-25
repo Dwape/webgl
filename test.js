@@ -85,9 +85,12 @@ function main() {
     // objects we'll be drawing.
     const buffers = initBuffers(gl);
 
-    const texture = loadTexture(gl, 'cubetexture.png');
+    const texture1 = loadTexture(gl, 'tnt.jpg');
+    const texture2 = loadTexture(gl, 'tnt_white.jpg');
 
     var then = 0;
+
+    var counter = 0;
 
     // Draw the scene repeatedly
     function render(now) {
@@ -95,7 +98,14 @@ function main() {
         const deltaTime = now - then;
         then = now;
 
-        drawScene(gl, programInfo, buffers, texture, deltaTime);
+        if (counter < 16) {
+            drawScene(gl, programInfo, buffers, texture1, deltaTime);
+        } else if (counter < 30) {
+            drawScene(gl, programInfo, buffers, texture2, deltaTime);
+        } else counter = 0;
+        counter ++;
+
+        //drawScene(gl, programInfo, buffers, texture1, deltaTime);
 
         requestAnimationFrame(render);
     }
