@@ -213,7 +213,6 @@ function drawScene(gl, programInfo, buffers, deltaTime) {
 
     //cubeRotation += deltaTime;
 
-
     if (yPosition > 0) {
         if (deltaTime < yPosition){
             yPosition -= deltaTime;
