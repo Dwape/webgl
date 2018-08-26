@@ -10,3 +10,6 @@ Moving a 3D object
 `Space` to go up<br/>
 `e` to rotate counter-clockwise<br/>
 `q` to rotate clockwise<br/>
+
+## Preview
+![alt text](https://github.com/Dwape/webgl/blob/master/tnt_preview.png)
