@@ -4,7 +4,7 @@
 // Initialize the buffers we'll need. For this demo, we just
 // have one object -- a simple three-dimensional cube.
 //
-function initBuffers(gl) {
+function initBuffersCube(gl) {
 
     // Create a buffer for the cube's vertex positions.
 
