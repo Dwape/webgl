@@ -90,6 +90,7 @@ function main() {
 
     const texture1 = loadTexture(gl, 'tnt.jpg');
     const texture2 = loadTexture(gl, 'tnt_white.jpg');
+    const texture3 = loadTexture(gl, 'grass.jpg');
 
     var then = 0;
 
@@ -113,7 +114,7 @@ function main() {
         } else counter = 0;
         counter ++;
 
-        drawPlane(gl, programInfo, buffersPlane, texture1, deltaTime);
+        drawPlane(gl, programInfo, buffersPlane, texture3, deltaTime);
 
 
         //drawScene(gl, programInfo, buffers, texture1, deltaTime);
